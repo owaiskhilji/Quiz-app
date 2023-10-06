@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+.h1-2{
+    margin-left:450px ;
+text-align: center;
+box-shadow: 0 0 12px black;
+background-color: rgb(12, 33, 226);
+color: white;
+width: 400px;
+}
+.div-inp-btn2{
+    width:300px;
+ margin-left:500px;
+ background-color: rgb(212, 206, 206);
+ box-shadow: 0 0 12px black;
+/* grid-template-columns: (5,auto); */
+border:2px solid black;
+/* text-align: center; */
+padding-top:20px;    
+padding-bottom:20px;    
+}
+input{
+    /* display: block; */
+    margin-left:30px;
+    width: 230px;
+ height: 20px;
+/* grid-template-columns:( 2,auto); */
+}
+input:hover{
+    border:2px solid rgb(27, 31, 146);
+}
+.female-lbl{
+    margin-left:10px;
+   
+   }
+   .male-lbl{
+   margin-left:10px;
+   
+   }
+#btn2{
+   
+    border: 1px solid  rgb(12, 33, 226);
+    padding: 4px;
+    font-weight: bold;
+    width: 200px;
+    margin-left:50px;
+font-weight: bold;
+}
+#btn2:hover{
+    background-color: rgb(12, 33, 226);
+    color: white;
+}

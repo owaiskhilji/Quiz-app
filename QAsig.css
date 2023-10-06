@@ -1,0 +1,97 @@
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.div-inp-btn {
+    width: 300px;
+    margin-left: 500px;
+    background-color: rgb(212, 206, 206);
+    box-shadow: 0 0 12px black;
+    /* grid-template-columns: (5,auto); */
+    border: 2px solid black;
+    /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h1 {
+    margin-left: 450px;
+    text-align: center;
+    box-shadow: 0 0 12px black;
+    background-color: rgb(12, 33, 226);
+    /* background-color: rgb(12, 226, 90); */
+    color: white;
+    width: 400px;
+}
+
+input {
+    /* display: block; */
+    margin-left: 70px;
+    height: 20px;
+    /* grid-template-columns:( 2,auto); */
+}
+
+label {
+    /* display: block; */
+    margin-left: 70px;
+}
+
+#btn {
+    margin-left: 70px;
+    /* margin-left:600px; */
+}
+
+.female-lbl {
+    margin-left: 10px;
+
+}
+
+.male-lbl {
+    margin-left: 10px;
+
+}
+
+#Female {
+    margin-left: 10px;
+}
+
+#sedob {
+    width: 170px;
+}
+
+input:hover {
+    border: 2px solid rgb(27, 31, 146);
+}
+
+#btn {
+
+    border: 1px solid rgb(12, 33, 226);
+    padding: 4px;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background-color: rgb(12, 33, 226);
+    color: white;
+
+}
+
+
+
+@media (max-width: 415px) {
+    .div-inp-btn {
+        width: 100px;
+        margin-left: 500px;
+        background-color: rgb(255, 10, 10);
+        box-shadow: 0 0 12px black;
+        /* grid-template-columns: (5,auto); */
+        border: 2px solid black;
+        /* text-align: center; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    h1{
+        color: red !important;
+    }
+}
